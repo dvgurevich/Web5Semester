@@ -1,0 +1,52 @@
+header{
+    font-family: "Inter Semi Bold", sans-serif;
+    color: #0046BE;
+    background-color: #EAEAEA;
+}
+.header__logo{
+    text-align: -moz-center;
+}
+.header__title{
+    color: black;
+    white-space: nowrap;
+}
+.header__code{
+    color: black;
+}
+main{
+    font-family: "Inter Medium", sans-serif;
+    background-color: #B2CEFF;
+}
+
+.main__images{
+    width: 150px;
+    height: auto;
+    filter: drop-shadow(0 0 0.75rem blue);
+}
+
+.main__categories__list__title{
+    font-size: x-large;
+}
+.main__categories__list{
+    line-height: 50%;
+}
+.main_categories__products__titles{
+    font-size: x-large;
+}
+.main__categories__products{
+    line-height: 20%;
+}
+footer{
+    font-family: "Inter Regular", sans-serif;
+    background-color: #6499F4;
+}
+.footer__contacts__title{
+    font-size: x-large;
+}
+.footer__contacts{
+    text-transform: capitalize;
+}
+.footer__quote{
+    font-style: italic;
+}
+

@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Lefan</title>
-    <link href="outlines.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
     <meta name="keywords" content="Интернет магазин, техника, электроника, скидки, большой ассортимент">
     <meta name="description" content="Интернет магазин электроники">
 </head>
 <body>
-    <header>
-        <pre>
+    <header class="header">
+        <pre class="header__logo">
                                         :-==-         =+==-:
                                       .+++++++-.....-+++++++
                                       .+++++++++++++++++++++=.      ..
@@ -27,8 +27,8 @@
                                         *******+--:::=*******-
                                         =++***:        =+++=:
         </pre>
-        <h1><strong>Lefan - Боги в мире техники!</strong></h1>
-        <pre>
+        <h1 class="header__title"><strong>Lefan - Боги в мире техники!</strong></h1>
+        <pre class="header__code">
             <code>
                 if (a == Lefan)
                     print("Боги техники!");
@@ -38,53 +38,56 @@
 
     <main>
         <section>
-            <h2>Категории:</h2>
+            <h2 class="main__categories__list__title">Категории:</h2>
             <nav>
                 <ol>
-                    <li><h4>Телефоны</h4></li>
-                    <li><h4>Ноутбуки</h4></li>
-                    <li><h4>Планшеты</h4></li>
+                    <li><h4 class="main__categories__list">Телефоны</h4></li>
+                    <li><h4 class="main__categories__list">Ноутбуки</h4></li>
+                    <li><h4 class="main__categories__list">Планшеты</h4></li>
                 </ol>
             </nav>
         </section>
         <section>
-            <h3>Телефоны:</h3>
+            <h3 class="main_categories__products__titles">Телефоны:</h3>
             <ul>
-                <li><h5>Apple Iphone 100 Super Pro Max</h5>
+                <li><h5 class="main__categories__products">Apple Iphone 100 Super Pro Max</h5>
+                    <img alt="Apple Iphone" src="images/iphone.jpg" class="main__images">
                     <section>1 000 000<sup>руб</sup> <i>Суперцена!</i></section>
                 </li>
-                <li><h5>Samsung Galaxy S33</h5>
+                <li><h5 class="main__categories__products">Samsung Galaxy S33</h5>
+                    <img alt="Samsung Galaxy" src="images/samsung.jpg" class="main__images">
                     <section>200 000<sup>руб</sup></section>
                 </li>
-                <li><h5>Huawei ULTRA 123S</h5>
+                <li><h5 class="main__categories__products">Huawei ULTRA 123S</h5>
+                    <img alt="Huawei" src="images/huawei.jpg" class="main__images">
                     <section>50 000<sup>руб</sup></section>
                 </li>
             </ul>
-            <h3>Ноутбуки:</h3>
+            <h3 class="main_categories__products__titles">Ноутбуки:</h3>
             <ul>
-                <li><h5>Apple MacBook Pro 100</h5>
+                <li><h5 class="main__categories__products">Apple MacBook Pro 100</h5>
                     <section>500 000<sup>руб</sup></section>
                 </li>
-                <li><h5>Asus H1238-FKA438238</h5>
+                <li><h5 class="main__categories__products">Asus H1238-FKA438238</h5>
                     <section>150 000<sup>руб</sup></section>
                 </li>
-                <li><h5>GIGABYTE G1</h5>
+                <li><h5 class="main__categories__products">GIGABYTE G1</h5>
                     <section>89 000<sup>руб</sup></section>
                 </li>
             </ul>
-            <h3>Планшеты:</h3>
+            <h3 class="main_categories__products__titles">Планшеты:</h3>
             <i>Нет в наличии</i>
         </section>
 
     </main>
 
     <footer>
-        <h2>Контакты:</h2>
+        <h2 class="footer__contacts__title">Контакты:</h2>
         <ul>
-            <li>Телефон: +0 000 000-00-00</li>
-            <li>Telegram: @Lefan</li>
+            <li class="footer__contacts">Телефон: +0 000 000-00-00</li>
+            <li class="footer__contacts">Telegram: @Lefan</li>
         </ul>
-        <blockquote><pre>
+        <blockquote><pre class="footer__quote">
             Ваш звонок 72 в очереди. Пожалуйста, оставайтесь на линии. Ваш звонок очень важен для нас
             <cite>Менеджер года по продажам</cite>
         </pre></blockquote>
